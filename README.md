@@ -5,12 +5,12 @@ Problem statement is that we need to find top N similar images given on a query 
 
 ![image](https://user-images.githubusercontent.com/62031889/120933146-630df880-c716-11eb-95be-ba8138e64a3e.png)
 
-- Approach:
-> * Data Extraction / Importing the Data : In this splitting the data and converting Image into array
-> * Convolutional Auto Encoders : Convolutional Autoencoders(CAEs) are a type of convolutional neural networks. The main difference between them is CAEs are unsupervised learning models in which the former is trained end-to-end to learn filters and combine features with the aim of classifying their input.
+`Approach`
+* Data Extraction / Importing the Data : In this splitting the data and converting Image into array
+* Convolutional Auto Encoders : Convolutional Autoencoders(CAEs) are a type of convolutional neural networks. The main difference between them is CAEs are unsupervised learning models in which the former is trained end-to-end to learn filters and combine features with the aim of classifying their input.
 It tries to keep the spatial information of the input image data as they are and extract information gently.
-- Encoders: Converting input image into latent space representation through a series of convolutional operations. (Left to centroid)
-- Decoders: It tries to restore the original image from the latent space through a series of upsampling/transpose convolution operations. (centroid to Right) Also known as Deconvolution.
+> * Encoders: Converting input image into latent space representation through a series of convolutional operations. (Left to centroid)
+> * Decoders: It tries to restore the original image from the latent space through a series of upsampling/transpose convolution operations. (centroid to Right) Also known as Deconvolution.
 
 ![image](https://user-images.githubusercontent.com/62031889/120933704-ed575c00-c718-11eb-9ade-1f2b07fe4529.png)
 
