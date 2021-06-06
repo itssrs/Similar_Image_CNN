@@ -1,1 +1,1 @@
-# Similar_Image_CNN
+#Similar Image Retrieval using Autoencoders
