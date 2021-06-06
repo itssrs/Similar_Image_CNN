@@ -28,3 +28,12 @@ It tries to keep the spatial information of the input image data as they are and
 > * You can test this using web-based application and simple jupyter notebook.
 > * Run main.py file and it will open localhost web (using Streamlit)
 > * Or run output.ipynb file and test it.
+
+`Testing`
+* Using jupyter notebook (output.ipynb)
+
+![image](https://user-images.githubusercontent.com/62031889/120933982-217f4c80-c71a-11eb-9cb6-61c9abcd3f6c.png)
+
+* Using Streamlit localhost web
+
+![image](https://user-images.githubusercontent.com/62031889/120934152-cbf76f80-c71a-11eb-8a64-c3ae705b709c.png)
