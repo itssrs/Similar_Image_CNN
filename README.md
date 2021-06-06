@@ -5,7 +5,15 @@ Problem statement is that we need to find top N similar images given on a query 
 
 ![image](https://user-images.githubusercontent.com/62031889/120933146-630df880-c716-11eb-95be-ba8138e64a3e.png)
 
+- Approach:
+> * Data Extraction / Importing the Data : In this splitting the data and converting Image into array
+> * Convolutional Auto Encoders : 
 
+![image](https://user-images.githubusercontent.com/62031889/120933704-ed575c00-c718-11eb-9ade-1f2b07fe4529.png)
+
+
+K-Means Clustering
+Similarity model through K-Nearest Neighbors
 
 - Step to run:
 
