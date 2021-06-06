@@ -9,4 +9,9 @@ Problem statement is that we need to find top N similar images given on a query 
 
 - Step to run:
 
-1. Download the dataset from here [https://drive.google.com/file/d/1VT-8w1rTT2GCE5IE5zFJPMzv7bqca-Ri/view](#here)
+> * Download the dataset from [https://drive.google.com/file/d/1VT-8w1rTT2GCE5IE5zFJPMzv7bqca-Ri/view]
+> * Download the Repo and copy the downloaded dataset into dataset/animal directory.
+> * Run the training.py file which will create models in the **models** directory and save file into **Dataset** directory
+> * You can test this using web-based application and simple jupyter notebook.
+> * Run main.py file and it will open localhost web (using Streamlit)
+> * Or run output.ipynb file and test it.
